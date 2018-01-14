@@ -19,6 +19,11 @@ module namespace daffodil = "edu.illinois.ncsa.daffodil";
 :)
 declare function daffodil:save-parser($daffodil, $schema, $outfile as xs:string?)
 {
+  let $outfile := if($outfile)
+                  then($outfile)
+                  else($schema || ".bin")
+  
+  return
   proc:system(
     $daffodil,
     (
