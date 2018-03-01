@@ -1,6 +1,6 @@
 # BaseX-Daffodil
 
-A simple wrapper for using DFDL with Daffodil in XQuery on BaseX.
+A simple wrapper for using DFDL with the Daffodil CLI from XQuery on BaseX.
 
 The capabilities of the module functions should be obvious when 
 consulting Daffodil's command help (``daffodil --help``)

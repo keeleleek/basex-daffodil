@@ -1,6 +1,6 @@
 (:~ 
   
-  A simple wrapper module for using Daffodil with BaseX.
+  A simple wrapper module for using the Daffodil CLI with BaseX.
   
   @author: Kristian Kankainen
   @copyright: MTÜ Keeleleek
